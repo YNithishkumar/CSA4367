@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Order History - Fashion Wear Online Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: green;
+            margin: 0;
+            padding: 0;
+        }
+
+        .order-history-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            max-width: 800px;
+            margin: 100px auto;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        th {
+            background-color: #007bff; /* Blue header background */
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9; /* Light gray for even rows */
+        }
+
+        tr:nth-child(odd) {
+            background-color: #ffffff; /* White for odd rows */
+        }
+    </style>
+</head>
+<body>
+    <div class="order-history-container">
+        <h2>Browse Order History</h2>
+        <table>
+            <tr>
+                <th>Order Number</th>
+                <th>Date</th>
+                <th>Total Amount</th>
+            </tr>
+            <tr>
+                <td>12345</td>
+                <td>2023-10-15</td>
+                <td>$150.00</td>
+            </tr>
+            <tr>
+                <td>67890</td>
+                <td>2023-10-10</td>
+                <td>$98.50</td>
+            </tr>
+            <!-- Add more rows for order history here -->
+        </table>
+    </div>
+</body>
+</html>
